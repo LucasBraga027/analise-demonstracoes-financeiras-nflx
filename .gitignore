@@ -19,3 +19,9 @@ ENV/
 *.swp
 Thumbs.db
 Desktop.ini
+
+# Cache dos downloads oficiais (SEC, Fed, Tesouro, BLS, BCE) — recriado por scripts/01*.py e 03*.py
+dados_sec/
+
+# Arquivos temporários do Excel
+~$*.xlsx

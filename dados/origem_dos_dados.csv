@@ -1,0 +1,631 @@
+﻿conta,tag,trimestre,metodo
+receita,us-gaap:Revenues,2019T1,3M
+receita,us-gaap:Revenues,2019T2,3M
+receita,us-gaap:Revenues,2019T3,3M
+receita,us-gaap:Revenues,2019T4,3M
+receita,us-gaap:Revenues,2020T1,3M
+receita,us-gaap:Revenues,2020T2,3M
+receita,us-gaap:Revenues,2020T3,3M
+receita,us-gaap:Revenues,2020T4,3M
+receita,us-gaap:Revenues,2021T1,3M
+receita,us-gaap:Revenues,2021T2,3M
+receita,us-gaap:Revenues,2021T3,3M
+receita,us-gaap:Revenues,2021T4,acumulado - acumulado anterior
+receita,us-gaap:Revenues,2022T1,3M
+receita,us-gaap:Revenues,2022T2,3M
+receita,us-gaap:Revenues,2022T3,3M
+receita,us-gaap:Revenues,2022T4,acumulado - acumulado anterior
+receita,us-gaap:Revenues,2023T1,3M
+receita,us-gaap:Revenues,2023T2,3M
+receita,us-gaap:Revenues,2023T3,3M
+receita,us-gaap:Revenues,2023T4,acumulado - acumulado anterior
+receita,us-gaap:Revenues,2024T1,3M
+receita,us-gaap:Revenues,2024T2,3M
+receita,us-gaap:Revenues,2024T3,3M
+receita,us-gaap:Revenues,2024T4,acumulado - acumulado anterior
+receita,us-gaap:Revenues,2025T1,3M
+receita,us-gaap:Revenues,2025T2,3M
+receita,us-gaap:Revenues,2025T3,3M
+receita,us-gaap:Revenues,2025T4,acumulado - acumulado anterior
+receita,us-gaap:Revenues,2026T1,3M
+receita,us-gaap:Revenues,2026T2,3M
+custo_servicos,us-gaap:CostOfRevenue,2019T1,3M
+custo_servicos,us-gaap:CostOfRevenue,2019T2,3M
+custo_servicos,us-gaap:CostOfRevenue,2019T3,3M
+custo_servicos,us-gaap:CostOfRevenue,2019T4,acumulado - acumulado anterior
+custo_servicos,us-gaap:CostOfRevenue,2020T1,3M
+custo_servicos,us-gaap:CostOfRevenue,2020T2,3M
+custo_servicos,us-gaap:CostOfRevenue,2020T3,3M
+custo_servicos,us-gaap:CostOfRevenue,2020T4,acumulado - acumulado anterior
+custo_servicos,us-gaap:CostOfRevenue,2021T1,3M
+custo_servicos,us-gaap:CostOfRevenue,2021T2,3M
+custo_servicos,us-gaap:CostOfRevenue,2021T3,3M
+custo_servicos,us-gaap:CostOfRevenue,2021T4,acumulado - acumulado anterior
+custo_servicos,us-gaap:CostOfRevenue,2022T1,3M
+custo_servicos,us-gaap:CostOfRevenue,2022T2,3M
+custo_servicos,us-gaap:CostOfRevenue,2022T3,3M
+custo_servicos,us-gaap:CostOfRevenue,2022T4,acumulado - acumulado anterior
+custo_servicos,us-gaap:CostOfRevenue,2023T1,3M
+custo_servicos,us-gaap:CostOfRevenue,2023T2,3M
+custo_servicos,us-gaap:CostOfRevenue,2023T3,3M
+custo_servicos,us-gaap:CostOfRevenue,2023T4,acumulado - acumulado anterior
+custo_servicos,us-gaap:CostOfRevenue,2024T1,3M
+custo_servicos,us-gaap:CostOfRevenue,2024T2,3M
+custo_servicos,us-gaap:CostOfRevenue,2024T3,3M
+custo_servicos,us-gaap:CostOfRevenue,2024T4,acumulado - acumulado anterior
+custo_servicos,us-gaap:CostOfRevenue,2025T1,3M
+custo_servicos,us-gaap:CostOfRevenue,2025T2,3M
+custo_servicos,us-gaap:CostOfRevenue,2025T3,3M
+custo_servicos,us-gaap:CostOfRevenue,2025T4,acumulado - acumulado anterior
+custo_servicos,us-gaap:CostOfRevenue,2026T1,3M
+custo_servicos,us-gaap:CostOfRevenue,2026T2,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2019T1,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2019T2,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2019T3,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2019T4,acumulado - acumulado anterior
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2020T1,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2020T2,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2020T3,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2020T4,acumulado - acumulado anterior
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2021T1,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2021T2,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2021T3,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2021T4,acumulado - acumulado anterior
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2022T1,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2022T2,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2022T3,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2022T4,acumulado - acumulado anterior
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2023T1,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2023T2,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2023T3,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2023T4,acumulado - acumulado anterior
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2024T1,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2024T2,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2024T3,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2024T4,acumulado - acumulado anterior
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2025T1,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2025T2,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2025T3,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2025T4,acumulado - acumulado anterior
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2026T1,3M
+marketing,us-gaap:SellingAndMarketingExpense|us-gaap:MarketingExpense,2026T2,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2019T1,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2019T2,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2019T3,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2019T4,acumulado - acumulado anterior
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2020T1,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2020T2,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2020T3,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2020T4,acumulado - acumulado anterior
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2021T1,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2021T2,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2021T3,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2021T4,acumulado - acumulado anterior
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2022T1,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2022T2,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2022T3,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2022T4,acumulado - acumulado anterior
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2023T1,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2023T2,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2023T3,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2023T4,acumulado - acumulado anterior
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2024T1,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2024T2,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2024T3,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2024T4,acumulado - acumulado anterior
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2025T1,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2025T2,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2025T3,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2025T4,acumulado - acumulado anterior
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2026T1,3M
+tecnologia,nflx:TechnologyandDevelopmentExpense|us-gaap:ResearchAndDevelopmentExpense,2026T2,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2019T1,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2019T2,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2019T3,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2019T4,acumulado - acumulado anterior
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2020T1,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2020T2,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2020T3,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2020T4,acumulado - acumulado anterior
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2021T1,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2021T2,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2021T3,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2021T4,acumulado - acumulado anterior
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2022T1,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2022T2,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2022T3,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2022T4,acumulado - acumulado anterior
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2023T1,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2023T2,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2023T3,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2023T4,acumulado - acumulado anterior
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2024T1,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2024T2,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2024T3,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2024T4,acumulado - acumulado anterior
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2025T1,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2025T2,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2025T3,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2025T4,acumulado - acumulado anterior
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2026T1,3M
+gerais_admin,us-gaap:GeneralAndAdministrativeExpense,2026T2,3M
+ebit,us-gaap:OperatingIncomeLoss,2019T1,3M
+ebit,us-gaap:OperatingIncomeLoss,2019T2,3M
+ebit,us-gaap:OperatingIncomeLoss,2019T3,3M
+ebit,us-gaap:OperatingIncomeLoss,2019T4,acumulado - acumulado anterior
+ebit,us-gaap:OperatingIncomeLoss,2020T1,3M
+ebit,us-gaap:OperatingIncomeLoss,2020T2,3M
+ebit,us-gaap:OperatingIncomeLoss,2020T3,3M
+ebit,us-gaap:OperatingIncomeLoss,2020T4,acumulado - acumulado anterior
+ebit,us-gaap:OperatingIncomeLoss,2021T1,3M
+ebit,us-gaap:OperatingIncomeLoss,2021T2,3M
+ebit,us-gaap:OperatingIncomeLoss,2021T3,3M
+ebit,us-gaap:OperatingIncomeLoss,2021T4,acumulado - acumulado anterior
+ebit,us-gaap:OperatingIncomeLoss,2022T1,3M
+ebit,us-gaap:OperatingIncomeLoss,2022T2,3M
+ebit,us-gaap:OperatingIncomeLoss,2022T3,3M
+ebit,us-gaap:OperatingIncomeLoss,2022T4,acumulado - acumulado anterior
+ebit,us-gaap:OperatingIncomeLoss,2023T1,3M
+ebit,us-gaap:OperatingIncomeLoss,2023T2,3M
+ebit,us-gaap:OperatingIncomeLoss,2023T3,3M
+ebit,us-gaap:OperatingIncomeLoss,2023T4,acumulado - acumulado anterior
+ebit,us-gaap:OperatingIncomeLoss,2024T1,3M
+ebit,us-gaap:OperatingIncomeLoss,2024T2,3M
+ebit,us-gaap:OperatingIncomeLoss,2024T3,3M
+ebit,us-gaap:OperatingIncomeLoss,2024T4,acumulado - acumulado anterior
+ebit,us-gaap:OperatingIncomeLoss,2025T1,3M
+ebit,us-gaap:OperatingIncomeLoss,2025T2,3M
+ebit,us-gaap:OperatingIncomeLoss,2025T3,3M
+ebit,us-gaap:OperatingIncomeLoss,2025T4,acumulado - acumulado anterior
+ebit,us-gaap:OperatingIncomeLoss,2026T1,3M
+ebit,us-gaap:OperatingIncomeLoss,2026T2,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2019T1,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2019T2,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2019T3,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2019T4,acumulado - acumulado anterior
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2020T1,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2020T2,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2020T3,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2020T4,acumulado - acumulado anterior
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2021T1,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2021T2,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2021T3,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2021T4,acumulado - acumulado anterior
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2022T1,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2022T2,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2022T3,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2022T4,acumulado - acumulado anterior
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2023T1,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2023T2,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2023T3,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2023T4,acumulado - acumulado anterior
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2024T1,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2024T2,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2024T3,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2024T4,acumulado - acumulado anterior
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2025T1,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2025T2,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2025T3,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2025T4,acumulado - acumulado anterior
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2026T1,3M
+despesa_juros,us-gaap:InterestExpenseNonoperating|us-gaap:InterestExpense,2026T2,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2019T1,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2019T2,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2019T3,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2019T4,acumulado - acumulado anterior
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2020T1,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2020T2,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2020T3,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2020T4,acumulado - acumulado anterior
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2021T1,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2021T2,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2021T3,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2021T4,acumulado - acumulado anterior
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2022T1,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2022T2,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2022T3,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2022T4,acumulado - acumulado anterior
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2023T1,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2023T2,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2023T3,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2023T4,acumulado - acumulado anterior
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2024T1,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2024T2,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2024T3,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2024T4,acumulado - acumulado anterior
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2025T1,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2025T2,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2025T3,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2025T4,acumulado - acumulado anterior
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2026T1,3M
+outras_rec_desp_fin,us-gaap:NonoperatingIncomeExpense,2026T2,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2019T1,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2019T2,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2019T3,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2019T4,acumulado - acumulado anterior
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2020T1,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2020T2,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2020T3,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2020T4,acumulado - acumulado anterior
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2021T1,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2021T2,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2021T3,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2021T4,acumulado - acumulado anterior
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2022T1,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2022T2,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2022T3,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2022T4,acumulado - acumulado anterior
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2023T1,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2023T2,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2023T3,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2023T4,acumulado - acumulado anterior
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2024T1,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2024T2,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2024T3,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2024T4,acumulado - acumulado anterior
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2025T1,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2025T2,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2025T3,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2025T4,acumulado - acumulado anterior
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2026T1,3M
+ganho_perda_cambial,us-gaap:ForeignCurrencyTransactionGainLossBeforeTax,2026T2,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2019T1,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2019T2,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2019T3,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2019T4,acumulado - acumulado anterior
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2020T1,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2020T2,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2020T3,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2020T4,acumulado - acumulado anterior
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2021T1,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2021T2,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2021T3,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2021T4,acumulado - acumulado anterior
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2022T1,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2022T2,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2022T3,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2022T4,acumulado - acumulado anterior
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2023T1,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2023T2,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2023T3,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2023T4,acumulado - acumulado anterior
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2024T1,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2024T2,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2024T3,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2024T4,acumulado - acumulado anterior
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2025T1,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2025T2,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2025T3,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2025T4,acumulado - acumulado anterior
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2026T1,3M
+lair,us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest|us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,2026T2,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2019T1,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2019T2,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2019T3,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2019T4,acumulado - acumulado anterior
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2020T1,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2020T2,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2020T3,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2020T4,acumulado - acumulado anterior
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2021T1,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2021T2,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2021T3,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2021T4,acumulado - acumulado anterior
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2022T1,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2022T2,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2022T3,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2022T4,acumulado - acumulado anterior
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2023T1,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2023T2,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2023T3,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2023T4,acumulado - acumulado anterior
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2024T1,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2024T2,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2024T3,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2024T4,acumulado - acumulado anterior
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2025T1,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2025T2,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2025T3,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2025T4,acumulado - acumulado anterior
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2026T1,3M
+ir_csll,us-gaap:IncomeTaxExpenseBenefit,2026T2,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2019T1,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2019T2,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2019T3,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2019T4,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2020T1,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2020T2,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2020T3,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2020T4,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2021T1,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2021T2,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2021T3,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2021T4,acumulado - acumulado anterior
+lucro_liquido,us-gaap:NetIncomeLoss,2022T1,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2022T2,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2022T3,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2022T4,acumulado - acumulado anterior
+lucro_liquido,us-gaap:NetIncomeLoss,2023T1,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2023T2,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2023T3,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2023T4,acumulado - acumulado anterior
+lucro_liquido,us-gaap:NetIncomeLoss,2024T1,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2024T2,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2024T3,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2024T4,acumulado - acumulado anterior
+lucro_liquido,us-gaap:NetIncomeLoss,2025T1,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2025T2,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2025T3,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2025T4,acumulado - acumulado anterior
+lucro_liquido,us-gaap:NetIncomeLoss,2026T1,3M
+lucro_liquido,us-gaap:NetIncomeLoss,2026T2,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2019T1,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2019T2,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2019T3,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2019T4,acumulado - acumulado anterior
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2020T1,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2020T2,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2020T3,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2020T4,acumulado - acumulado anterior
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2021T1,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2021T2,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2021T3,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2021T4,acumulado - acumulado anterior
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2022T1,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2022T2,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2022T3,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2022T4,acumulado - acumulado anterior
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2023T1,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2023T2,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2023T3,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2023T4,acumulado - acumulado anterior
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2024T1,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2024T2,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2024T3,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2024T4,acumulado - acumulado anterior
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2025T1,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2025T2,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2025T3,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2025T4,acumulado - acumulado anterior
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2026T1,3M
+amort_conteudo,nflx:CostofServicesAmortizationofStreamingContentAssets,2026T2,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2019T1,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2019T2,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2019T3,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2019T4,acumulado - acumulado anterior
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2020T1,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2020T2,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2020T3,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2020T4,acumulado - acumulado anterior
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2021T1,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2021T2,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2021T3,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2021T4,acumulado - acumulado anterior
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2022T1,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2022T2,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2022T3,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2022T4,acumulado - acumulado anterior
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2023T1,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2023T2,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2023T3,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2023T4,acumulado - acumulado anterior
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2024T1,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2024T2,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2024T3,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2024T4,acumulado - acumulado anterior
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2025T1,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2025T2,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2025T3,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2025T4,acumulado - acumulado anterior
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2026T1,3M
+gasto_caixa_conteudo,nflx:AdditionstoStreamingContentAssets,2026T2,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2019T1,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2019T2,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2019T3,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2019T4,acumulado - acumulado anterior
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2020T1,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2020T2,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2020T3,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2020T4,acumulado - acumulado anterior
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2021T1,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2021T2,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2021T3,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2021T4,acumulado - acumulado anterior
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2022T1,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2022T2,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2022T3,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2022T4,acumulado - acumulado anterior
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2023T1,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2023T2,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2023T3,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2023T4,acumulado - acumulado anterior
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2024T1,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2024T2,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2024T3,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2024T4,acumulado - acumulado anterior
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2025T1,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2025T2,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2025T3,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2025T4,acumulado - acumulado anterior
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2026T1,3M
+depreciacao_amort,us-gaap:DepreciationDepletionAndAmortization,2026T2,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2019T1,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2019T2,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2019T3,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2019T4,acumulado - acumulado anterior
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2020T1,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2020T2,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2020T3,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2020T4,acumulado - acumulado anterior
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2021T1,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2021T2,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2021T3,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2021T4,acumulado - acumulado anterior
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2022T1,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2022T2,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2022T3,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2022T4,acumulado - acumulado anterior
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2023T1,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2023T2,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2023T3,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2023T4,acumulado - acumulado anterior
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2024T1,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2024T2,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2024T3,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2024T4,acumulado - acumulado anterior
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2025T1,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2025T2,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2025T3,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2025T4,acumulado - acumulado anterior
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2026T1,3M
+remuneracao_acoes,us-gaap:ShareBasedCompensation,2026T2,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2019T1,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2019T2,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2019T3,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2019T4,acumulado - acumulado anterior
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2020T1,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2020T2,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2020T3,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2020T4,acumulado - acumulado anterior
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2021T1,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2021T2,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2021T3,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2021T4,acumulado - acumulado anterior
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2022T1,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2022T2,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2022T3,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2022T4,acumulado - acumulado anterior
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2023T1,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2023T2,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2023T3,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2023T4,acumulado - acumulado anterior
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2024T1,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2024T2,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2024T3,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2024T4,acumulado - acumulado anterior
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2025T1,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2025T2,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2025T3,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2025T4,acumulado - acumulado anterior
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2026T1,3M
+fco,us-gaap:NetCashProvidedByUsedInOperatingActivities,2026T2,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2019T1,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2019T2,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2019T3,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2019T4,acumulado - acumulado anterior
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2020T1,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2020T2,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2020T3,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2020T4,acumulado - acumulado anterior
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2021T1,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2021T2,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2021T3,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2021T4,acumulado - acumulado anterior
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2022T1,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2022T2,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2022T3,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2022T4,acumulado - acumulado anterior
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2023T1,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2023T2,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2023T3,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2023T4,acumulado - acumulado anterior
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2024T1,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2024T2,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2024T3,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2024T4,acumulado - acumulado anterior
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2025T1,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2025T2,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2025T3,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2025T4,acumulado - acumulado anterior
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2026T1,3M
+capex,us-gaap:PaymentsToAcquirePropertyPlantAndEquipment,2026T2,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2019T1,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2019T2,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2019T3,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2019T4,acumulado - acumulado anterior
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2020T1,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2020T2,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2020T3,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2020T4,acumulado - acumulado anterior
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2021T1,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2021T2,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2021T3,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2021T4,acumulado - acumulado anterior
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2022T1,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2022T2,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2022T3,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2022T4,acumulado - acumulado anterior
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2023T1,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2023T2,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2023T3,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2023T4,acumulado - acumulado anterior
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2024T1,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2024T2,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2024T3,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2024T4,acumulado - acumulado anterior
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2025T1,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2025T2,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2025T3,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2025T4,acumulado - acumulado anterior
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2026T1,3M
+fci,us-gaap:NetCashProvidedByUsedInInvestingActivities,2026T2,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2019T1,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2019T2,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2019T3,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2019T4,acumulado - acumulado anterior
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2020T1,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2020T2,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2020T3,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2020T4,acumulado - acumulado anterior
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2021T1,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2021T2,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2021T3,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2021T4,acumulado - acumulado anterior
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2022T1,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2022T2,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2022T3,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2022T4,acumulado - acumulado anterior
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2023T1,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2023T2,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2023T3,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2023T4,acumulado - acumulado anterior
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2024T1,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2024T2,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2024T3,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2024T4,acumulado - acumulado anterior
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2025T1,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2025T2,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2025T3,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2025T4,acumulado - acumulado anterior
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2026T1,3M
+fcf_financiamento,us-gaap:NetCashProvidedByUsedInFinancingActivities,2026T2,3M
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2019T1,ausente
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2019T2,ausente
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2019T3,ausente
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2019T4,ausente
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2020T1,ausente
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2020T2,3M
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2020T3,3M
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2020T4,acumulado - acumulado anterior
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2021T1,ausente
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2021T2,3M
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2021T3,3M
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2021T4,acumulado - acumulado anterior
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2022T1,3M
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2022T2,3M
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2022T3,3M
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2022T4,acumulado - acumulado anterior
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2023T1,3M
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2023T2,3M
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2023T3,3M
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2023T4,acumulado - acumulado anterior
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2024T1,3M
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2024T2,3M
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2024T3,3M
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2024T4,acumulado - acumulado anterior
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2025T1,3M
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2025T2,3M
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2025T3,3M
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2025T4,acumulado - acumulado anterior
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2026T1,3M
+recompra_acoes,us-gaap:PaymentsForRepurchaseOfCommonStock,2026T2,3M

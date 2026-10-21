@@ -411,3 +411,25 @@ O script fará a extração em tempo real diretamente da SEC EDGAR, processará 
 Abra o VS Code ou Jupyter Lab no diretório `c:\Users\ddom1\Desktop\trab fer` e abra o arquivo [Analise_Demonstracoes_Financeiras_NFLX_vs_DIS.ipynb](file:///c:/Users/ddom1/Desktop/trab%20fer/Analise_Demonstracoes_Financeiras_NFLX_vs_DIS.ipynb). Clique em **"Run All"** (Executar Tudo). Todas as 21 células executarão de forma determinística sem qualquer aviso de erro ou dependência externa além dos pacotes científicos padrão de Python.
 
 
+
+---
+
+## 17. Revisão de 18 de Outubro de 2026: Validação, Correções e Extensão
+
+Esta seção registra as correções feitas sobre o conteúdo acima. O texto anterior foi mantido como registro histórico. Detalhes em `README.md` e `dados/validacao_base.md`.
+
+### Correções de conteúdo
+- **Seção 14, nota do 2026Q1:** o lucro líquido de US$ 5,28 bi **não** veio de "créditos fiscais".
+  - O imposto do trimestre foi normal (19%).
+  - O que elevou o lucro foi a **multa rescisória de US$ 2,8 bi** paga à Netflix quando a Warner Bros. Discovery encerrou o acordo de fusão (27/02/2026) para fechar com a Paramount Skydance. O valor foi registrado em "Interest and other income" (10-Q do 1º tri/2026, accession 0001065280-26-000138).
+- **Seção 14, tabela:** o valor "1,48x" de Dívida Líquida/EBITDA LTM em 2020Q1 era impossível, porque o EBITDA de 12 meses exige os 4 trimestres anteriores e a série começava em 2020. Com a série estendida a 2019, os valores corretos são 3,60x (2019T4) e 2,96x (2020T1).
+- **Seção 14, Fleuriet:** a NCG foi recalculada separando as aplicações financeiras de curto prazo (ativo financeiro) do ativo circulante operacional.
+- **Seção 13, código:**
+  - O extrator preenchia lacunas com `bfill`/`ffill` e usava "custo = 52% da receita" como reserva. Nada disso é usado agora.
+  - O imposto passou a manter o sinal original (antes era `abs()`).
+
+### Extensões
+- **Série:** 2019T1 a 2026T2, a partir das instâncias XBRL completas, incluindo as contas próprias da Netflix (ativos e passivos de conteúdo, pagamentos e amortização de conteúdo).
+- **Explicações oficiais:** cartas aos acionistas e texto dos 10-Q/10-K para 15 variações bruscas (aba `Variacoes_Bruscas`).
+- **Contexto:** dados macro (Fed, Tesouro, BLS, BCE) e setoriais (Disney, WBD, Paramount, Comcast).
+- **Planilha:** `Analise_Netflix_ECO057.xlsx`, com todas as análises em fórmulas, validada após recálculo no Excel.

@@ -1,0 +1,386 @@
+<title>Netflix em contexto</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@112,600;112,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: nota técnica em coluna única de leitura (~68ch); tabelas e figuras podem alargar até 1040px; citações SEC como notas em monoespaçada */
+:root {
+  --papel: #f6f7f5;          /* fundo: branco levemente esverdeado-frio, não creme */
+  --superficie: #ffffff;
+  --tinta: #14181d;          /* texto principal */
+  --tinta-2: #4a525c;        /* texto secundário */
+  --tinta-3: #7a838d;        /* rótulos, notas */
+  --fio: #dde1e3;            /* linhas e bordas */
+  --azul: #2a78d6;           /* acento = série 1 dos gráficos */
+  --azul-fundo: #e6eff9;
+  --laranja: #d9581f;        /* negativo / perda = série 2 dos gráficos */
+  --laranja-fundo: #fbebe3;
+  --display: "Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --texto: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --dados: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --papel: #121518; --superficie: #1a1e22; --tinta: #e9ecee; --tinta-2: #b4bcc4; --tinta-3: #87909a;
+    --fio: #2c3238; --azul: #5b9be6; --azul-fundo: #1b2a3b; --laranja: #ec8457; --laranja-fundo: #33221a;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --papel: #121518; --superficie: #1a1e22; --tinta: #e9ecee; --tinta-2: #b4bcc4; --tinta-3: #87909a;
+  --fio: #2c3238; --azul: #5b9be6; --azul-fundo: #1b2a3b; --laranja: #ec8457; --laranja-fundo: #33221a;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--papel); color: var(--tinta);
+  font-family: var(--texto); font-size: 18px; line-height: 1.62;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.pagina { max-width: 1040px; margin: 0 auto; padding-block: 56px 96px; display: grid; gap: 56px; }
+.coluna { max-width: 68ch; }
+h1, h2, h3 { font-family: var(--display); font-stretch: 112%; text-wrap: balance; margin: 0; color: var(--tinta); }
+h1 { font-size: clamp(2.1rem, 5vw, 3.3rem); line-height: 1.05; font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: 1.7rem; line-height: 1.15; font-weight: 700; }
+h3 { font-size: 1.12rem; line-height: 1.3; font-weight: 600; }
+p { margin: 0; }
+.rotulo { font-family: var(--dados); font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--tinta-3); }
+.secao { display: grid; gap: 22px; }
+.secao > header { display: grid; gap: 8px; border-top: 2px solid var(--tinta); padding-top: 14px; }
+.bloco { display: grid; gap: 14px; }
+.lead { font-size: 1.22rem; line-height: 1.5; color: var(--tinta-2); }
+ul.pontos { margin: 0; padding-left: 1.1em; display: grid; gap: 8px; }
+ul.pontos li::marker { color: var(--azul); }
+strong { font-weight: 600; }
+.num { font-family: var(--dados); font-size: 0.92em; font-variant-numeric: tabular-nums; }
+
+/* citação de fonte oficial */
+.fonte { font-family: var(--dados); font-size: 0.74rem; line-height: 1.5; color: var(--tinta-3); }
+.fonte b { font-weight: 500; color: var(--tinta-2); }
+blockquote {
+  margin: 0; padding: 12px 16px; background: var(--superficie); border-left: 3px solid var(--azul);
+  font-style: italic; color: var(--tinta-2); font-size: 0.98rem; display: grid; gap: 6px;
+}
+blockquote .fonte { font-style: normal; }
+
+/* cabeçalho */
+.topo { display: grid; gap: 18px; }
+.meta { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+.meta span { font-family: var(--dados); font-size: 0.78rem; color: var(--tinta-2); }
+.meta span b { color: var(--tinta); font-weight: 500; }
+
+/* tabelas */
+.tabela { overflow-x: auto; background: var(--superficie); border: 1px solid var(--fio); }
+table { border-collapse: collapse; width: 100%; font-size: 0.86rem; }
+th, td { padding: 9px 12px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--fio); }
+th { font-family: var(--dados); font-weight: 500; font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinta-3); background: var(--papel); white-space: nowrap; }
+td.n, th.n { text-align: right; font-family: var(--dados); font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+td.neg { color: var(--laranja); }
+caption { caption-side: bottom; text-align: left; padding: 10px 12px; font-family: var(--dados); font-size: 0.72rem; color: var(--tinta-3); border-top: 1px solid var(--fio); }
+
+/* barra divergente da diferença cambial */
+.dif { display: grid; grid-template-columns: 1fr 1fr; width: 160px; height: 12px; }
+.dif > span { display: flex; height: 100%; }
+.dif > span:first-child { justify-content: flex-end; }   /* perda cresce para a esquerda a partir do eixo */
+.dif .esq, .dif .dir { display: block; height: 100%; }
+.dif .esq { background: var(--laranja); }
+.dif .dir { background: var(--azul); }
+.dif .eixo { border-right: 1px solid var(--tinta-3); }
+
+/* figuras: gráficos PNG em placa clara nos dois temas */
+figure { margin: 0; display: grid; gap: 10px; }
+figure img { width: 100%; max-width: 100%; height: auto; display: block; background: #fcfcfb; border: 1px solid var(--fio); }
+figcaption { font-size: 0.9rem; color: var(--tinta-2); max-width: 75ch; }
+
+/* quadro de canais */
+.canais { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1px; background: var(--fio); border: 1px solid var(--fio); }
+.canal { background: var(--superficie); padding: 16px; display: grid; gap: 6px; align-content: start; }
+.canal .rotulo { color: var(--azul); }
+.canal p { font-size: 0.95rem; }
+
+.aviso { background: var(--laranja-fundo); padding: 14px 16px; font-size: 0.95rem; display: grid; gap: 6px; }
+.aviso .rotulo { color: var(--laranja); }
+
+a { color: var(--azul); text-underline-offset: 2px; }
+a:focus-visible { outline: 2px solid var(--azul); outline-offset: 2px; }
+@media (max-width: 560px) { body { font-size: 17px; } .pagina { padding-block: 32px 64px; gap: 44px; } th, td { padding: 8px; } }
+</style>
+
+<div class="pagina">
+
+  <header class="topo coluna">
+    <p class="rotulo">ECO057 · Análise das demonstrações financeiras · Netflix, Inc. (NFLX)</p>
+    <h1>Netflix em contexto</h1>
+    <p class="lead">Este documento explica a análise macroeconômica e setorial que abre a apresentação. Ele mostra o que mudou na economia americana, no câmbio e no mercado de streaming entre 2019 e 2026, e por quais canais cada mudança aparece nas demonstrações da Netflix.</p>
+    <div class="meta">
+      <span><b>Período</b> 2019T1 a 2026T2</span>
+      <span><b>Fontes</b> SEC EDGAR, Federal Reserve, Tesouro dos EUA, BLS, Banco Central Europeu</span>
+      <span><b>Valores</b> US$, salvo indicação</span>
+    </div>
+  </header>
+
+  <section class="secao coluna">
+    <header><p class="rotulo">Por que começar pelo contexto</p><h2>A análise horizontal mostra quanto variou; o contexto explica por quê</h2></header>
+    <p>Uma variação de 2% na receita pode ser fraqueza do negócio ou só o dólar forte. Um caixa recorde pode ser eficiência ou só produções paradas por uma greve. Sem separar o que veio de fora (juros, inflação, câmbio, concorrência, choques do setor) do que é decisão da empresa, a análise horizontal mistura causas diferentes no mesmo número.</p>
+    <p>Por isso o trabalho faz a leitura em três camadas: o ambiente macro dos EUA, o câmbio das regiões onde a Netflix vende e a situação dos concorrentes de streaming. Cada afirmação deste documento foi conferida por um segundo levantamento independente, refazendo o cálculo nos arquivos oficiais ou relendo o trecho do relatório. Afirmações que não se sustentaram foram corrigidas ou retiradas.</p>
+  </section>
+
+  <section class="secao">
+    <header class="coluna"><p class="rotulo">Quadro-síntese</p><h2>As fases do período e como aparecem nos números</h2></header>
+    <div class="tabela">
+      <table>
+        <thead><tr><th>Ano</th><th>Contexto dominante</th><th class="n">Receita (AH)</th><th class="n">Margem operacional</th><th class="n">Caixa operacional</th></tr></thead>
+        <tbody>
+          <tr><td>2019</td><td>Juros em queda; Netflix ainda queima caixa para montar o catálogo</td><td class="n">—</td><td class="n">12,9%</td><td class="n neg">−2,9 bi</td></tr>
+          <tr><td>2020</td><td>Pandemia: juro zero, confinamento, filmagens paradas</td><td class="n">+24,0%</td><td class="n">18,3%</td><td class="n">2,4 bi</td></tr>
+          <tr><td>2021</td><td>Reabertura e retomada das produções</td><td class="n">+18,8%</td><td class="n">20,9%</td><td class="n">0,4 bi</td></tr>
+          <tr><td>2022</td><td>Inflação no pico, alta de juros, dólar forte, perda de assinantes</td><td class="n">+6,5%</td><td class="n">17,8%</td><td class="n">2,0 bi</td></tr>
+          <tr><td>2023</td><td>Greves em Hollywood; reajustes de preço contidos</td><td class="n">+6,7%</td><td class="n">20,6%</td><td class="n">7,3 bi</td></tr>
+          <tr><td>2024</td><td>Compartilhamento pago, plano com anúncios, reajustes</td><td class="n">+15,6%</td><td class="n">26,7%</td><td class="n">7,4 bi</td></tr>
+          <tr><td>2025</td><td>Desinflação, cortes de juros, dólar recua; imposto no Brasil</td><td class="n">+15,9%</td><td class="n">29,5%</td><td class="n">10,1 bi</td></tr>
+        </tbody>
+        <caption>Fonte: base trimestral construída dos 10-Q/10-K da Netflix (soma dos 4 trimestres). AH = variação contra o ano anterior. Planilha, aba AH_Anual.</caption>
+      </table>
+    </div>
+  </section>
+
+  <section class="secao">
+    <header class="coluna"><p class="rotulo">1 · Macroeconomia dos EUA</p><h2>Juros de zero a 5,33% e inflação de 9%</h2></header>
+
+    <div class="bloco coluna">
+      <h3>O que aconteceu</h3>
+      <ul class="pontos">
+        <li><strong>Juro básico.</strong> A taxa efetiva dos Fed Funds estava em 2,40% no início de 2019 e terminou aquele ano em 1,55%. Em março de 2020 caiu praticamente a zero e ficou entre 0,04% e 0,10% até março de 2022. O ciclo de alta começou em 17/03/2022 e, após onze elevações, chegou a <span class="num">5,33%</span> em 27/07/2023, nível mantido até 18/09/2024. Os cortes levaram a taxa a 3,64% em dezembro de 2025; em setembro de 2026 ela voltou a subir para 3,88%.</li>
+        <li><strong>Juro longo.</strong> O título do Tesouro de 10 anos teve mínimo de 0,52% em 04/08/2020, chegou a 4,98% em 19/10/2023 e voltou a subir em 2026, com pico de 5,31% em 05/10/2026.</li>
+        <li><strong>Inflação.</strong> O CPI-U em 12 meses atingiu <span class="num">9,06%</span> em junho de 2022 (média trimestral de 8,63% em 2022T2, contra 1,64% em 2019T1). Caiu para 2,45% em média no 2º trimestre de 2025 e voltou a subir em 2026, com 4,25% em maio e 3,74% em setembro.</li>
+        <li><strong>Emprego.</strong> O desemprego chegou a 14,8% em abril de 2020, voltou a cerca de 3,5% em 2022–2023 e estava em 4,2% em setembro de 2026.</li>
+      </ul>
+      <p class="fonte">Fed Funds: Federal Reserve, série H.15 diária · Treasury: Daily Par Yield Curve · CPI-U e desemprego: BLS (CUUR0000SA0, LNS14000000). Outubro de 2025 não tem dado: o BLS não coletou o mês por causa da paralisação do governo, e a média do 4º tri/2025 usa só novembro e dezembro.</p>
+    </div>
+
+    <figure>
+      <img src="graficos_slides/01_macro_juros_inflacao.png" alt="Linhas do juro básico americano e da inflação em 12 meses, médias trimestrais de 2019 a 2026. A inflação sobe a 8,6% em 2022 e o juro sobe de quase zero a 5,3% entre 2022 e 2023." loading="lazy">
+      <figcaption>Gráfico do slide de abertura. Médias trimestrais; por isso o pico da inflação aparece como 8,6% (média de abr–jun/2022), e não 9,06% (junho).</figcaption>
+    </figure>
+
+    <div class="bloco coluna">
+      <h3>Por onde a macro chega às demonstrações</h3>
+    </div>
+    <div class="canais">
+      <div class="canal">
+        <p class="rotulo">Despesa de juros · DRE</p>
+        <p><strong>Não reagiu à alta.</strong> A despesa trimestral foi de US$ 192,7 mi em média com juro zero (2020T2–2021T4) e de US$ 173,0 mi com juro máximo (2023T3–2024T2). Toda a dívida é de notas com cupom fixo; a taxa implícita ficou entre 4,8% e 5,3% em todo o período.</p>
+      </div>
+      <div class="canal">
+        <p class="rotulo">Receita financeira · DRE</p>
+        <p><strong>Ganhou com a alta.</strong> A receita de juros sobre caixa e aplicações passou de US$ 60 mi (2022) para US$ 281 mi (2023), por taxas maiores e saldos maiores, e ficou em US$ 294–295 mi em 2024–2025.</p>
+      </div>
+      <div class="canal">
+        <p class="rotulo">Consumidor · receita</p>
+        <p><strong>Pesou em 2022.</strong> A empresa citou crescimento fraco, inflação e a guerra entre os fatores que "provavelmente" afetavam o crescimento. Os únicos trimestres com perda de assinantes da série (2022T1 e T2) coincidem com o pico da inflação.</p>
+      </div>
+      <div class="canal">
+        <p class="rotulo">Custos · margem</p>
+        <p><strong>Custo quase fixo.</strong> A amortização de conteúdo cresceu 10,1% ao ano entre 2019 e 2025, contra 14,4% da receita. Caiu de 45,7% para 36,4% da receita e a margem bruta subiu de 38,3% para 48,5%.</p>
+      </div>
+    </div>
+
+    <div class="bloco coluna">
+      <p>O primeiro canal é o mais didático para a apresentação. O Fed subiu os juros em mais de 5 pontos e a despesa de juros da Netflix ficou parada: a correlação entre as duas séries em 30 trimestres é de −0,11. O peso dos juros caiu de 3,11% da receita em 2019 para 1,72% em 2025, e a cobertura (EBIT sobre juros) subiu de 4,2 para 17,2 vezes.</p>
+      <blockquote>
+        <p>"As of December 31, 2022, we had $14.4 billion of debt, consisting of fixed rate unsecured debt in fourteen tranches due between 2024 and 2030."</p>
+        <p class="fonte"><b>Netflix 10-K 2022</b> · accession 0001065280-23-000035</p>
+      </blockquote>
+      <p>Os dois saltos da despesa de juros (US$ 234 mi em 2025T4 e US$ 262 mi em 2026T1) vieram da amortização de custos dos financiamentos contratados para a tentativa de compra da Warner Bros. Discovery: cerca de US$ 60 mi em 2025 e cerca de US$ 85 mi no 1º tri/2026, quando esses financiamentos foram encerrados. Em 2026T2 a despesa voltou a US$ 176 mi.</p>
+      <p>Preço foi a resposta da empresa ao ambiente. Entre meados de 2022 e o fim de 2023 os reajustes foram limitados ("limited price increases over the past 18 months", carta do 3º tri/2023), com reduções em alguns países. Nesse intervalo a Netflix lançou o plano mais barato com anúncios e o compartilhamento pago. Os reajustes voltaram nos EUA, Reino Unido e França no 4º tri/2023 e seguiram em 2025–2026; as cartas de 2025 e 2026 citam "higher pricing" entre os motores da receita.</p>
+      <p>A dívida bruta ficou praticamente igual de 2022 a 2026 (US$ 14,4 bi em 2022T4 e 14,3 bi em 2026T2). As recompras de ações, retomadas em 2023, somaram US$ 27,4 bi entre 2023T1 e 2026T2, cobertas pelo caixa operacional do período (US$ 31,8 bi). Houve uma emissão de US$ 1,8 bi em notas em 2024, compensada por vencimentos.</p>
+    </div>
+  </section>
+
+  <section class="secao">
+    <header class="coluna"><p class="rotulo">2 · Câmbio</p><h2>Mais da metade da receita vem de fora dos EUA, e o dólar decide quanto dela chega</h2></header>
+
+    <div class="bloco coluna">
+      <h3>Exposição</h3>
+      <p>A receita gerada fora de EUA e Canadá passou de 50,1% do total em 2019T1 para 56,8% em 2026T2. A EMEA subiu de 27,3% para 32,1% e a Ásia-Pacífico de 7,1% para 12,0%; EUA e Canadá caíram de 49,9% para 43,2%. Pelo 10-K de 2025, moedas diferentes do dólar responderam por 56% da receita e 31% das despesas operacionais, principalmente euro, libra, real, peso mexicano, dólar canadense e peso argentino.</p>
+      <h3>O que o dólar fez</h3>
+      <ul class="pontos">
+        <li>O euro valeu menos de um dólar em setembro (0,9904) e outubro de 2022 (0,9826), o ponto mais baixo da série 2019–2026, depois de 1,2171 em janeiro de 2021.</li>
+        <li>O real foi a R$ 6,09 por dólar em dezembro de 2024, o mais fraco da série, contra R$ 4,11 em dezembro de 2019. O iene acumulou a maior desvalorização das cinco moedas: de 109,1 para 156,4 ienes por dólar entre dez/2019 e set/2026.</li>
+        <li>Um índice simples do dólar contra as cinco moedas (4º tri/2019 = 100) teve três picos: 112,7 em maio de 2020, 118,7 em outubro de 2022 e 121,7 em janeiro de 2025.</li>
+      </ul>
+      <p class="fonte">Taxas de referência mensais do Banco Central Europeu, convertidas para moeda por US$. O índice tem pesos iguais; não usa a composição real da receita da Netflix por moeda.</p>
+    </div>
+
+    <figure>
+      <img src="graficos_slides/02_macro_dolar_receita.png" alt="Linhas da variação em 12 meses da receita da Netflix e da valorização do dólar, 2020 a 2026. Quando o dólar sobe, em 2022, o crescimento da receita cai para 2%." loading="lazy">
+      <figcaption>Gráfico do slide de câmbio: os dois movimentos andam em sentidos opostos, com o caso mais claro em 2022.</figcaption>
+    </figure>
+
+    <div class="bloco coluna">
+      <h3>Crescimento reportado contra crescimento em moeda constante</h3>
+      <p>A Netflix divulga, a cada trimestre, quanto a receita teria crescido com o câmbio do ano anterior ("F/X neutral", medida não-GAAP). A diferença entre os dois números é o efeito cambial. A tabela mostra os 18 trimestres em que a carta aos acionistas traz o número.</p>
+    </div>
+    <div class="tabela">
+      <table>
+        <thead><tr><th>Trimestre</th><th class="n">Reportado</th><th class="n">Moeda constante</th><th class="n">Efeito do câmbio</th><th>Laranja = câmbio tirou · azul = câmbio somou</th></tr></thead>
+        <tbody>
+          <tr><td>1T22</td><td class="n">10%</td><td class="n">14%</td><td class="n neg">−4 p.p.</td><td><div class="dif"><span class="eixo"><span class="esq" style="width:50%"></span></span><span></span></div></td></tr>
+          <tr><td>2T22</td><td class="n">9%</td><td class="n">13%</td><td class="n neg">−4 p.p.</td><td><div class="dif"><span class="eixo"><span class="esq" style="width:50%"></span></span><span></span></div></td></tr>
+          <tr><td>3T22</td><td class="n">6%</td><td class="n">13%</td><td class="n neg">−7 p.p.</td><td><div class="dif"><span class="eixo"><span class="esq" style="width:87.5%"></span></span><span></span></div></td></tr>
+          <tr><td><strong>4T22</strong></td><td class="n">2%</td><td class="n">10%</td><td class="n neg">−8 p.p.</td><td><div class="dif"><span class="eixo"><span class="esq" style="width:100%"></span></span><span></span></div></td></tr>
+          <tr><td>1T23</td><td class="n">4%</td><td class="n">8%</td><td class="n neg">−4 p.p.</td><td><div class="dif"><span class="eixo"><span class="esq" style="width:50%"></span></span><span></span></div></td></tr>
+          <tr><td>2T23</td><td class="n">3%</td><td class="n">6%</td><td class="n neg">−3 p.p.</td><td><div class="dif"><span class="eixo"><span class="esq" style="width:37.5%"></span></span><span></span></div></td></tr>
+          <tr><td>3T23</td><td class="n">8%</td><td class="n">8%</td><td class="n">0</td><td><div class="dif"><span class="eixo"></span><span></span></div></td></tr>
+          <tr><td>4T23</td><td class="n">12%</td><td class="n">13%</td><td class="n neg">−1 p.p.</td><td><div class="dif"><span class="eixo"><span class="esq" style="width:12.5%"></span></span><span></span></div></td></tr>
+          <tr><td>1T24</td><td class="n">15%</td><td class="n">18%</td><td class="n neg">−3 p.p.</td><td><div class="dif"><span class="eixo"><span class="esq" style="width:37.5%"></span></span><span></span></div></td></tr>
+          <tr><td>2T24</td><td class="n">17%</td><td class="n">22%</td><td class="n neg">−5 p.p.</td><td><div class="dif"><span class="eixo"><span class="esq" style="width:62.5%"></span></span><span></span></div></td></tr>
+          <tr><td>3T24</td><td class="n">15%</td><td class="n">21%</td><td class="n neg">−6 p.p.</td><td><div class="dif"><span class="eixo"><span class="esq" style="width:75%"></span></span><span></span></div></td></tr>
+          <tr><td>4T24</td><td class="n">16%</td><td class="n">19%</td><td class="n neg">−3 p.p.</td><td><div class="dif"><span class="eixo"><span class="esq" style="width:37.5%"></span></span><span></span></div></td></tr>
+          <tr><td>1T25</td><td class="n">13%</td><td class="n">16%</td><td class="n neg">−3 p.p.</td><td><div class="dif"><span class="eixo"><span class="esq" style="width:37.5%"></span></span><span></span></div></td></tr>
+          <tr><td>2T25</td><td class="n">16%</td><td class="n">17%</td><td class="n neg">−1 p.p.</td><td><div class="dif"><span class="eixo"><span class="esq" style="width:12.5%"></span></span><span></span></div></td></tr>
+          <tr><td>3T25</td><td class="n">17%</td><td class="n">17%</td><td class="n">0</td><td><div class="dif"><span class="eixo"></span><span></span></div></td></tr>
+          <tr><td>4T25</td><td class="n">18%</td><td class="n">17%</td><td class="n">+1 p.p.</td><td><div class="dif"><span class="eixo"></span><span><span class="dir" style="width:12.5%"></span></span></div></td></tr>
+          <tr><td>1T26</td><td class="n">16%</td><td class="n">14%</td><td class="n">+2 p.p.</td><td><div class="dif"><span class="eixo"></span><span><span class="dir" style="width:25%"></span></span></div></td></tr>
+          <tr><td>2T26</td><td class="n">13%</td><td class="n">12%</td><td class="n">+1 p.p.</td><td><div class="dif"><span class="eixo"></span><span><span class="dir" style="width:12.5%"></span></span></div></td></tr>
+        </tbody>
+        <caption>Fonte: cartas trimestrais aos acionistas (8-K, Ex. 99.1), percentuais arredondados pela própria Netflix. Escala da barra: 8 p.p. = meia largura. Diferenças de 1 p.p. estão dentro do arredondamento.</caption>
+      </table>
+    </div>
+
+    <div class="bloco coluna">
+      <p><strong>2022 é o caso central.</strong> No 4º tri/2022 a receita cresceu 2% em dólares e 10% em moeda constante. Na EMEA, a receita em dólares caiu 6,9% entre 2021T4 e 2022T4 (de US$ 2.523 mi para 2.350 mi) enquanto os assinantes da região subiram 3,6%. A receita média por assinante da EMEA caiu 10% em dólares e subiu 5% em moeda constante: o câmbio sozinho tirou cerca de 15 pontos.</p>
+      <blockquote>
+        <p>"The sequential decline in revenue was entirely due to F/X."</p>
+        <p class="fonte"><b>Carta aos acionistas, 3º tri/2022</b> · accession 0001065280-22-000367</p>
+      </blockquote>
+      <p><strong>2024 tem uma armadilha.</strong> A diferença de 5–6 p.p. no 2º e no 3º tri/2024 não foi dólar forte em geral. A Netflix explicou que ela vinha principalmente da Argentina: reajustes grandes em pesos, por causa da inflação local, com o peso perdendo 75% frente ao dólar, o que infla o número em moeda constante. Na América Latina, a receita cresceu 9% em dólares e 46% em moeda constante no 3º tri/2024.</p>
+      <p><strong>De 2025 em diante o câmbio virou a favor.</strong> O índice do dólar recuou de 121,7 (janeiro/2025) para cerca de 110, e desde o 4º tri/2025 o crescimento reportado supera o de moeda constante. A empresa reconheceu isso na projeção do 2º tri/2025, quando elevou a receita esperada de 2025 de US$ 43,5–44,5 bi para US$ 44,8–45,2 bi, "primarily" pelo enfraquecimento do dólar.</p>
+      <p>Em 2020–2021 as cartas só informavam o impacto cambial em dólares. Com ele, estima-se que o câmbio tirou cerca de 6 p.p. do crescimento no 2º tri/2020 e somou cerca de 4,5 p.p. no 2º tri/2021. Para 2020 a carta dá um exemplo concreto: o plano padrão de R$ 33 no Brasil valia US$ 8,5 em 2019 e US$ 6,5 às taxas de abril de 2020.</p>
+    </div>
+
+    <div class="bloco coluna">
+      <h3>Dívida em euro e o programa de hedge</h3>
+      <p>No fim de 2022 a Netflix tinha € 5,17 bi em notas em euro (cerca de US$ 5,5 bi, aproximadamente 38% da dívida). A cada balanço essa dívida é convertida para dólar, e a diferença vai para o resultado como ganho ou perda não-caixa. Isso explica dois saltos do lucro líquido que não têm relação com a operação: ganho de US$ 348 mi no 3º tri/2022 (euro abaixo da paridade) e perda de US$ 462 mi no 4º tri/2022 (euro em recuperação). No ano, foram −US$ 533 mi em 2020, +431 mi em 2021 e +353 mi em 2022.</p>
+      <p>Até o 2º tri/2023 a empresa declarava não usar derivativos para proteger o câmbio. O primeiro registro de hedge aparece no 10-Q do 3º tri/2023: contratos a termo sobre receitas previstas em moeda estrangeira e sobre compromissos de conteúdo. O nocional dos hedges de fluxo de caixa foi de US$ 8,8 bi (fim de 2023) para US$ 21,1 bi (fim de 2025). Depois disso a volatilidade caiu: desde o 3º tri/2025 a remensuração trimestral da dívida em euro ficou abaixo de US$ 11 mi.</p>
+      <p class="fonte">10-K 2022 (0001065280-23-000035), notas de dívida e MD&amp;A · 10-Q 30/09/2023 (0001065280-23-000273) · 10-K 2025 (0001065280-26-000034), Nota 8</p>
+    </div>
+  </section>
+
+  <section class="secao">
+    <header class="coluna"><p class="rotulo">3 · Setor</p><h2>A Netflix lucrava enquanto os rivais perdiam bilhões no streaming</h2></header>
+
+    <div class="bloco coluna">
+      <h3>Escala e rentabilidade</h3>
+      <p>A Netflix ainda é menor que os conglomerados de mídia: em 2025 sua receita equivalia a 47,9% da receita da Disney e a 36,5% da Comcast. Mas foi a que mais cresceu e passou de pior a melhor margem do grupo.</p>
+    </div>
+    <div class="tabela">
+      <table>
+        <thead><tr><th>Empresa</th><th class="n">Receita 2025</th><th class="n">Crescimento a.a. 2019–25</th><th class="n">Margem op. 2019</th><th class="n">Margem op. 2025</th><th>Observação</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Netflix</strong></td><td class="n">45,2 bi</td><td class="n">14,4%</td><td class="n">12,9%</td><td class="n"><strong>29,5%</strong></td><td>Praticamente um só negócio</td></tr>
+          <tr><td>Disney</td><td class="n">94,4 bi</td><td class="n">5,2%</td><td class="n">15,9%</td><td class="n">14,3%</td><td>Margem em base comparável; ano fiscal termina em set/out</td></tr>
+          <tr><td>Comcast</td><td class="n">123,7 bi</td><td class="n">2,1%</td><td class="n">19,4%</td><td class="n">16,7%</td><td>Inclui banda larga, parques e NBCU</td></tr>
+          <tr><td>Warner Bros. Discovery</td><td class="n">37,3 bi</td><td class="n">não orgânico</td><td class="n">27,0%</td><td class="n">2,0%</td><td>Fusão com a WarnerMedia em abr/2022</td></tr>
+          <tr><td>Paramount Global</td><td class="n">29,2 bi*</td><td class="n">1,6%*</td><td class="n">15,4%</td><td class="n neg">−18,0%*</td><td>*2024, último 10-K antes da fusão com a Skydance</td></tr>
+        </tbody>
+        <caption>Fonte: 10-K das empresas via SEC (XBRL). Margem média ponderada 2019–2025: Netflix 22,2%, Comcast 17,2%, Disney 8,8% (comparável), Paramount 6,6% (2019–24), WBD −5,7%.</caption>
+      </table>
+    </div>
+
+    <div class="aviso coluna">
+      <p class="rotulo">Cuidado com a Disney</p>
+      <p>A Disney destaca o "lucro operacional dos segmentos" (US$ 17,6 bi em 2025), que exclui despesas corporativas, reestruturação e a amortização da compra da Fox e da Hulu. A base comparável às demais é US$ 13,5 bi. Com ela, o lucro operacional da Netflix (US$ 13,3 bi) praticamente iguala o da Disney com menos da metade da receita.</p>
+    </div>
+
+    <div class="bloco coluna">
+      <p>Os prejuízos operacionais de WBD e Paramount vêm de lançamentos contábeis grandes. A WBD teve, em 2022, US$ 3,76 bi de reestruturação (com US$ 2,76 bi de baixas de conteúdo) e, em 2024, baixa de goodwill de US$ 9,1 bi nas redes de TV. A Paramount teve US$ 2,37 bi de baixas de programação em 2023 e, em 2024, US$ 6,13 bi de impairments, dos quais US$ 5,98 bi no goodwill de TV a cabo. O padrão comum é a TV linear perdendo valor.</p>
+      <h3>O resultado do streaming dos concorrentes</h3>
+    </div>
+
+    <figure>
+      <img src="graficos_slides/03_setor_streaming_rivais.png" alt="Barras do resultado do streaming por ano fiscal de 2021 a 2025. Netflix entre 5,6 e 13,3 bilhões positivos; Disney, Warner e Paramount negativos até 2023, chegando a no máximo 1,4 bilhão em 2025." loading="lazy">
+      <figcaption>De 2021 a 2024, o streaming de Disney, Paramount e WBD somou cerca de US$ 12,8 bi em perdas; a Netflix acumulou US$ 29,2 bi de lucro operacional no mesmo período.</figcaption>
+    </figure>
+
+    <div class="tabela">
+      <table>
+        <thead><tr><th>Negócio de streaming</th><th>Métrica divulgada</th><th class="n">2021</th><th class="n">2022</th><th class="n">2023</th><th class="n">2024</th><th class="n">2025</th></tr></thead>
+        <tbody>
+          <tr><td>Disney (Disney+, Hulu)</td><td>Resultado operacional do segmento</td><td class="n neg">−1,25</td><td class="n neg">−3,42</td><td class="n neg">−2,50</td><td class="n">0,14</td><td class="n">1,33</td></tr>
+          <tr><td>Paramount (Paramount+, Pluto TV)</td><td>OIBDA ajustado</td><td class="n neg">−0,99</td><td class="n neg">−1,82</td><td class="n neg">−1,66</td><td class="n neg">−0,50</td><td class="n">n.d.</td></tr>
+          <tr><td>WBD (Max/HBO Max)</td><td>EBITDA ajustado</td><td class="n">n.c.</td><td class="n neg">−1,60</td><td class="n">0,10</td><td class="n">0,68</td><td class="n">1,37</td></tr>
+          <tr><td><strong>Netflix</strong></td><td>Lucro operacional (EBIT)</td><td class="n">6,19</td><td class="n">5,63</td><td class="n">6,95</td><td class="n">10,42</td><td class="n">13,33</td></tr>
+        </tbody>
+        <caption>US$ bilhões, por ano fiscal. n.d. = não divulgado (fusão Paramount–Skydance em ago/2025). n.c. = não comparável (2021 da WBD só inclui a Discovery: −1,35). Fontes: 10-K da Disney (0001744489-23-000216, -24-000276, -25-000155), Paramount (0000813828-23-000005, -24-000007, -25-000005) e WBD (0001437107-23-000019, -26-000020).</caption>
+      </table>
+    </div>
+
+    <div class="bloco coluna">
+      <p>As métricas não são iguais. OIBDA e EBITDA ajustados excluem depreciação e amortização e tendem a mostrar um resultado melhor que o operacional; a perda econômica de Paramount e WBD foi provavelmente maior que a da tabela. A comparação vale para o sinal e a tendência: os rivais só chegaram ao positivo a partir de 2023 (WBD) e 2024 (Disney), enquanto a Paramount ainda perdia em 2024.</p>
+
+      <h3>Como a competição mudou</h3>
+      <ul class="pontos">
+        <li><strong>Publicidade.</strong> A Netflix lançou o plano mais barato com anúncios em novembro de 2022, em 12 mercados. A Disney lançou o Disney+ com anúncios nos EUA em dezembro de 2022. Em 2025 a receita de anúncios da Netflix passou de US$ 1,5 bi (cerca de 3,3% da receita) e a empresa projeta que ela praticamente dobre em 2026.</li>
+        <li><strong>Compartilhamento de senhas.</strong> Em maio de 2023 a Netflix passou a cobrar pelo compartilhamento em mais de 100 países, mais de 80% da sua receita. No 2º tri/2023 vieram 5,9 mi de adições líquidas. Os 10-K de Disney e WBD baixados não documentam medida equivalente.</li>
+        <li><strong>Preço.</strong> No ano fiscal de 2024, a Disney atribuiu 10 p.p. do crescimento da receita de assinaturas do streaming a preços mais altos, contra 6 p.p. de novos assinantes.</li>
+        <li><strong>Consolidação.</strong> A Discovery incorporou a WarnerMedia em abril de 2022 e a Paramount assinou fusão com a Skydance em julho de 2024. Em 04/12/2025 a Netflix assinou acordo para comprar os estúdios e o streaming da WBD; em 27/02/2026 a WBD rescindiu o acordo para aceitar a proposta da Paramount Skydance, que pagou à Netflix a multa de US$ 2,8 bi, registrada fora do resultado operacional.</li>
+      </ul>
+      <blockquote>
+        <p>"The market for entertainment video is intensely competitive and subject to rapid change."</p>
+        <p class="fonte"><b>Netflix 10-K 2025</b> · accession 0001065280-26-000034. A empresa disputa o tempo de lazer com TV linear, outros streamings, videogames, plataformas abertas e redes sociais.</p>
+      </blockquote>
+
+      <h3>Tamanho da audiência</h3>
+      <p>A base de assinantes pagos da Netflix foi de 167,1 mi (2019T4) para 301,6 mi (2024T4), alta de 80,5%. No fim de 2024 a Netflix tinha mais que o dobro do Disney+ Core (122,7 mi; 158,6 mi com o Disney+ Hotstar), do streaming da WBD (116,9 mi) e do Paramount+ (77,5 mi). Em 2025, Disney+ e WBD chegaram a 131,6 mi cada, menos da metade dos mais de 325 mi que a Netflix anunciou na carta do 4º tri/2025. Segundo a Nielsen, citada pela Netflix, sua participação no tempo de TV nos EUA subiu de 7% (2021) para 9,0% (dezembro de 2025).</p>
+      <p class="fonte">As definições de assinante e as datas de corte diferem entre as empresas. A participação da Nielsen vem das cartas da própria Netflix e cobre só a TV dos EUA.</p>
+    </div>
+
+    <div class="bloco coluna">
+      <h3>Choques do setor que aparecem no caixa</h3>
+      <p><strong>Pandemia (2020).</strong> A Netflix ganhou 36,6 mi de assinantes em 2020 e só 18,2 mi em 2021; a empresa disse que a COVID antecipou crescimento de 2021 ("pulled forward"). Com as filmagens paradas, o pagamento de conteúdo caiu 15,4% em 2020 e ficou abaixo da amortização, e o caixa operacional passou de −US$ 2,9 bi para +US$ 2,4 bi. Com a retomada em 2021, o pagamento subiu 50,3% e o caixa operacional quase zerou. O caixa de 2020 foi efeito de calendário.</p>
+      <p><strong>Greves de roteiristas e atores (2023).</strong> O pagamento de conteúdo caiu 25,4% em 2023 (de US$ 16,8 bi para 12,6 bi), único ano da série abaixo da amortização, e o caixa operacional foi de US$ 2,0 bi para 7,3 bi. A empresa estimou em cerca de US$ 1 bi o gasto adiado pelas greves. O efeito foi do setor: a WBD descreveu no 10-K de 2023 um "impacto material", positivo no caixa e negativo no resultado.</p>
+      <blockquote>
+        <p>"For the full year 2023, net cash provided by operating activities was $7.3B vs. $2.0B in 2022 while FCF totaled $6.9B compared to $1.6B in 2022. This included approximately $1B in delayed spending due to the WGA and SAG-AFTRA strikes."</p>
+        <p class="fonte"><b>Carta aos acionistas, 4º tri/2023</b> · accession 0001065280-24-000029</p>
+      </blockquote>
+      <p><strong>Tributo no Brasil (2025).</strong> A queda da margem no 3º tri/2025 não veio de câmbio nem de juros: foi uma despesa de cerca de US$ 619 mi com autuações de tributos não incidentes sobre a renda no Brasil, referente a 2022–2025 e lançada de uma vez no custo. A margem operacional ficou em 28,2%, contra cerca de 33,6% sem o efeito e projeção de 31,5%.</p>
+    </div>
+  </section>
+
+  <section class="secao coluna">
+    <header><p class="rotulo">4 · Leitura para a análise horizontal</p><h2>O que é ambiente e o que é a empresa</h2></header>
+    <ul class="pontos">
+      <li><strong>Câmbio explica a receita fraca de 2022</strong> (2% em dólares contra 10% em moeda constante no 4º tri) e parte da recuperação de 2025–2026. Comparar sempre com o número em moeda constante.</li>
+      <li><strong>A alta de juros não explica nenhuma variação da despesa financeira.</strong> A dívida é de taxa fixa. Os saltos de 2025T4 e 2026T1 vêm dos custos do financiamento da WBD.</li>
+      <li><strong>As oscilações do caixa vêm do calendário de produção</strong> (pandemia em 2020, retomada em 2021, greves em 2023), não da demanda. O caixa forte desses anos não é recorrente.</li>
+      <li><strong>Os saltos do lucro líquido em 2021, 2022 e 2026T1 são não operacionais:</strong> remensuração da dívida em euro e a multa da WBD.</li>
+      <li><strong>A expansão da margem de 12,9% para 29,5% é da empresa:</strong> custo de conteúdo quase fixo diluído por receita crescente, com compartilhamento pago, anúncios e reajustes. A mesma estrutura de custo fixo funcionaria contra a Netflix numa desaceleração, risco que o próprio 10-K descreve.</li>
+      <li><strong>No setor, a Netflix é a exceção:</strong> lucrou durante todo o período em que os rivais perdiam bilhões no streaming, e chegou a 2025 com a maior margem do grupo.</li>
+    </ul>
+  </section>
+
+  <section class="secao coluna">
+    <header><p class="rotulo">Ressalvas</p><h2>Limites desta análise</h2></header>
+    <ul class="pontos">
+      <li>Coincidência no tempo não prova causa. A perda de assinantes de 2022 coincide com o pico da inflação, mas a própria empresa citou também concorrência, compartilhamento de senhas e a saída da Rússia (−0,7 mi).</li>
+      <li>O PIB não foi incluído; as fontes oficiais consultadas não responderam. O ciclo de atividade aparece só pelo desemprego e pela inflação.</li>
+      <li>A Netflix deixou de divulgar assinantes por trimestre a partir de 2025, e a receita de anúncios só é informada em marcos aproximados.</li>
+      <li>O índice do dólar usa pesos iguais e cinco moedas; não inclui o peso argentino nem o dólar canadense, que a empresa cita como relevantes.</li>
+      <li>Os resultados de streaming dos rivais usam métricas diferentes e anos fiscais diferentes (Disney fecha em setembro/outubro). A Comcast (Peacock) entra só nos números consolidados.</li>
+      <li>Os dados de 2026 são os mais recentes disponíveis e podem ser revisados.</li>
+    </ul>
+  </section>
+
+  <section class="secao coluna">
+    <header><p class="rotulo">Método e fontes</p><h2>Como os números foram obtidos</h2></header>
+    <p>Os dados da Netflix e dos concorrentes vêm dos relatórios arquivados na SEC (10-Q, 10-K e cartas trimestrais anexadas aos 8-K). A série macro vem do Federal Reserve (H.15), do Tesouro dos EUA (curva diária de juros), do BLS (CPI-U e desemprego) e do Banco Central Europeu (câmbio de referência mensal). As médias trimestrais são médias simples dos dias ou meses disponíveis.</p>
+    <p>Cada afirmação passou por duas etapas. Um primeiro levantamento calculou os números e localizou os trechos nos documentos. Um verificador independente refez cada cálculo e releu cada trecho, com a instrução de tentar refutá-lo. Das 74 afirmações levantadas, 44 foram confirmadas como estavam e 30 foram corrigidas (arredondamento, período ou causalidade afirmada sem prova); nenhuma precisou ser descartada. Um terceiro revisor apontou lacunas, preenchidas com novas afirmações conferidas nos documentos.</p>
+    <p class="fonte">Todos os números estão na planilha Analise_Netflix_ECO057.xlsx (abas Macro, Setor, Regioes, AH_Anual e Variacoes_Bruscas). Os gráficos estão em graficos_slides/. O roteiro da apresentação está em ROTEIRO_APRESENTACAO.md.</p>
+  </section>
+
+</div>
